@@ -1,0 +1,15 @@
+const name="Muskaan"
+const age="22"
+console.log(`My name is ${name} and My age is ${age}`)
+const Myname = new String("  Muski  ")
+console.log(Myname[0])
+console.log(Myname.__proto__)
+console.log(Myname.length)
+console.log(Myname.toUpperCase())
+console.log(Myname.charAt(2))
+console.log(Myname.indexOf('k'))
+const newString = Myname.substring(0, 4)
+console.log(newString)
+const anString = Myname.slice(-8, 4)
+console.log(anString)
+console.log(anString.trim())
